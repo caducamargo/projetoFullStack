@@ -8,9 +8,9 @@ import { CaricaturasComponent } from './components/template/caricaturas/caricatu
 import { GlitterComponent } from './components/template/glitter/glitter.component';
 import { MagicasComponent } from './components/template/magicas/magicas.component';
 import { PerolasComponent } from './components/template/perolas/perolas.component';
-import { NamoradoComponent } from './components/template/namorado/namorado.component';
 import { MaeComponent } from './components/template/mae/mae.component';
 import { PaiComponent } from './components/template/pai/pai.component';
+import { NamoradosComponent } from './components/template/namorados/namorados.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +20,9 @@ import { PaiComponent } from './components/template/pai/pai.component';
     GlitterComponent,
     MagicasComponent,
     PerolasComponent,
-    NamoradoComponent,
     MaeComponent,
     PaiComponent,
+    NamoradosComponent,
   ],
   imports: [
     BrowserModule,
