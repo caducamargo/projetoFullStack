@@ -14,7 +14,7 @@
                             <select class="custom-select border-right"  name="category_name">
                                     <option value="">Todos</option><option value="codex">Especiais</option>
                                     <option value="comments">Mais vendidos</option>
-                                    <option value="content">Promoção</option>
+                                    <option value="content">Promoções</option>
                             </select>
                             <input type="text" class="form-control" placeholder="Pesquisar">
                             
@@ -29,7 +29,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="widgets-wrap float-md-right">
                         <div class="widget-header mr-3">
-                            <a href="#" class="widget-view">
+                            <a class="widget-view">
                                 <div class="icon-area">
                                     <i class="fa fa-user"></i>
                                 </div>
@@ -37,16 +37,15 @@
                             </a>
                         </div>
                         <div class="widget-header mr-3">
-                            <a href="#" class="widget-view">
+                            <a class="widget-view">
                                 <div class="icon-area">
                                     <i class="fa fa-comment-dots"></i>
-                                    <span class="notify">1</span>
                                 </div>
                                 <small class="text"> Mensagens </small>
                             </a>
                         </div>
                         <div class="widget-header mr-3">
-                            <a href="#" class="widget-view">
+                            <a class="widget-view">
                                 <div class="icon-area">
                                     <i class="fa fa-store"></i>
                                 </div>
@@ -78,19 +77,8 @@
         <div class="collapse navbar-collapse" id="main_nav">
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"> <i class="fa fa-bars text-muted mr-2"></i> Menu </a>
-                <div class="dropdown-menu dropdown-large">
-                    <nav class="row">
-                        <div class="col-6">
-                            <a routerLink="/"><a href="page-index-1.html">Página inicial</a></a>
-                            <a href="page-index-2.html">Todos produtos</a>
-                            <a href="page-category.html">Mais vendidos</a>
-                            <a href="page-listing-large.html">Promoções</a>
-                            <a href="page-listing-grid.html">Outlet</a>
-                        </div>
-                        
-                    </nav> <!--  row end .// -->
-                </div> <!--  dropdown-menu dropdown-large end.// -->
+                <a routerLink="/">
+                <a data-toggle="dropdown" href="#"> Home </a></a>
             </li>
         </ul>
         </div> <!-- collapse .// -->
@@ -115,25 +103,25 @@
                           <li><a routerLink="/caricaturas">Canecas com caricaturas</a></li>
                           <li><a routerLink="/glitter" class="glitter">Canecas com glitter</a></li>
                           <li><a routerLink="/magicas" class="magicas">Canecas mágicas</a></li>
-                          <li><a routerLink="/perolas" class="perolas">Canecas perolas</a></li>
+                          <li><a routerLink="/celebridades" class="celebridades">Canecas celebridades</a></li>
                       </ul>
                   </li>
                   <li class="has-submenu"><a>Presentes</a>
                       <ul class="submenu">
-                          <li><a href="#">Para seu namorado</a></li>
-                          <li><a href="#">Para sua mãe</a></li>
-                          <li><a href="#">Para seu pai</a></li>
+                          <li><a routerLink="/namorados">Para seu namorado(a)</a></li>
+                          <li><a routerLink="/parasuamae">Para sua mãe</a></li>
+                          <li><a routerLink="/paraseupai">Para seu pai</a></li>
                       </ul>
                   </li>
                   <li class="has-submenu"><a>Coleções</a>
                       <ul class="submenu">
-                          <li><a href="#">Futebol</a></li>
-                          <li><a href="#">Games</a></li>
-                          <li><a href="#">Filmes</a></li>
-                          <li><a href="#">Profissão</a></li>
+                          <li><a routerLink="/futebol">Futebol</a></li>
+                          <li><a routerLink="/games">Games</a></li>
+                          <li><a routerLink="/filmes">Filmes</a></li>
+                          <li><a routerLink="/profissoes">Profissões</a></li>
                       </ul>
                   </li>
-                    <li><a href="#">Canecas com fotos</a></li>   
+                    <li><a routerLink="/comfotos">Canecas com fotos</a></li>   
                 </ul>
             </nav>
         </aside> <!-- col.// -->
@@ -169,30 +157,30 @@
         </div> 
         <div class="col-md d-none d-lg-block flex-grow-1">
             <aside class="special-home-right">
-                <h6 class="bg-blue text-center text-white mb-0 p-2">Populares</h6>
+                <h6 class="bg-light-orange text-center text-white mb-0 p-2">Populares</h6>
                 
                 <div class="card-banner border-bottom">
                   <div class="py-3" style="width:80%">
                     <h6 class="card-title">Canecas com fotos</h6>
-                    <a href="#" class="btn btn-secondary btn-sm"> Veja agora </a>
+                    <a href="/comfotos" class="btn btn-secondary btn-sm"> Veja agora </a>
                   </div> 
-                  <img src="assets/images/items/1.jpg" height="80" class="img-bg">
+                  <img src="../../../../assets\images\canecas\Canecas com fotos/Caneca Personalizada com Foto e Música Spotify ( Mod. 4 ) RS 34.90.jpg" height="80" class="img-bg">
                 </div>
     
                 <div class="card-banner border-bottom">
                   <div class="py-3" style="width:80%">
-                    <h6 class="card-title">Para seu namorado </h6>
-                    <a href="#" class="btn btn-secondary btn-sm"> Veja agora </a>
+                    <h6 class="card-title">Para seu namorado(a)</h6>
+                    <a href="/namorados" class="btn btn-secondary btn-sm"> Veja agora </a>
                   </div> 
-                  <img src="assets/images/items/2.jpg" height="80" class="img-bg">
+                  <img src="../../../../assets/images/canecas/Presentes/Para Namorados/Caneca Personalizada Eu Te Amo ( 3 Fotos ) RS 34.90.jpg" height="80" class="img-bg">
                 </div>
     
                 <div class="card-banner border-bottom">
                   <div class="py-3" style="width:80%">
                     <h6 class="card-title">Canecas mágicas</h6>
-                    <a href="#" class="btn btn-secondary btn-sm"> Veja agora</a>
+                    <a href="/magicas" class="btn btn-secondary btn-sm"> Veja agora</a>
                   </div> 
-                  <img src="assets/images/items/6.jpg" height="80" class="img-bg">
+                  <img src="./../../../../assets/images/canecas/Personalize do seu jeito/Canecas mágicas/Caneca Mágica Personalizada Naturo RS 39.90.jpg" height="80" class="img-bg">
                 </div>
     
             </aside>
@@ -214,7 +202,7 @@
     <div class="row row-sm">
         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
             <div class="card card-sm card-product-grid">
-                <a href="#" class="img-wrap"> <img src="assets/images/items/1.jpg"> </a>
+                <a href="/checkout" class="img-wrap"> <img src="../../../../assets/images/canecas/Canecas com fotos/Caneca Personalizada com Foto e Música Spotify RS 34.90.jpg"> </a>
                 <figcaption class="info-wrap">
                     <a href="#" class="title">Just another product name</a>
                     <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
@@ -223,7 +211,7 @@
         </div> <!-- col.// -->
         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
             <div class="card card-sm card-product-grid">
-                <a href="#" class="img-wrap"> <img src="assets/images/items/2.jpg"> </a>
+                <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Coleções/Canecas Celebridades/Caneca Personalizada Neymar RS 34.90.jpg"> </a>
                 <figcaption class="info-wrap">
                     <a href="#" class="title">Some item name here</a>
                     <div class="price mt-1">$280.00</div> <!-- price-wrap.// -->
@@ -232,7 +220,7 @@
         </div> <!-- col.// -->
         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
             <div class="card card-sm card-product-grid">
-                <a href="#" class="img-wrap"> <img src="assets/images/items/3.jpg"> </a>
+                <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Coleções/Filmes/Caneca Personalizada Os Vingadores ( Mod. 1 ) RS 34.90.jpg"> </a>
                 <figcaption class="info-wrap">
                     <a href="#" class="title">Great product name here</a>
                     <div class="price mt-1">$56.00</div> <!-- price-wrap.// -->
@@ -241,7 +229,7 @@
         </div> <!-- col.// -->
         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
             <div class="card card-sm card-product-grid">
-                <a href="#" class="img-wrap"> <img src="assets/images/items/4.jpg"> </a>
+                <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Coleções/Games/Caneca Personalizada Minecraft ( Mod. 4 ) RS 34.90.jpg"> </a>
                 <figcaption class="info-wrap">
                     <a href="#" class="title">Just another product name</a>
                     <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
@@ -250,7 +238,7 @@
         </div> <!-- col.// -->
         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
             <div class="card card-sm card-product-grid">
-                <a href="#" class="img-wrap"> <img src="assets/images/items/5.jpg"> </a>
+                <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Coleções/Profissão/Caneca Personalizada Profissão Psicologia ( Mod. 2 ) RS 34.90.jpg"> </a>
                 <figcaption class="info-wrap">
                     <a href="#" class="title">Just another product name</a>
                     <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
@@ -259,7 +247,7 @@
         </div> <!-- col.// -->
         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
             <div class="card card-sm card-product-grid">
-                <a href="#" class="img-wrap"> <img src="assets/images/items/6.jpg"> </a>
+                <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Presentes/Para seu pai/Caneca Personalizada Meu Pai é Top RS 34.90.jpg"> </a>
                 <figcaption class="info-wrap">
                     <a href="#" class="title">Some item name here</a>
                     <div class="price mt-1">$280.00</div> <!-- price-wrap.// -->
@@ -279,7 +267,7 @@
       <div class="row row-sm">
           <div class="col-xl-2 col-lg-3 col-md-4 col-6">
               <div class="card card-sm card-product-grid">
-                  <a href="#" class="img-wrap"> <img src="assets/images/items/1.jpg"> </a>
+                  <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas//Canecas com fotos/Caneca Personalizada Seu Pet Mod. 3 ( 3 Fotos ) RS 34.90.jpg"> </a>
                   <figcaption class="info-wrap">
                       <a href="#" class="title">Just another product name</a>
                       <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
@@ -288,7 +276,7 @@
           </div> <!-- col.// -->
           <div class="col-xl-2 col-lg-3 col-md-4 col-6">
               <div class="card card-sm card-product-grid">
-                  <a href="#" class="img-wrap"> <img src="assets/images/items/2.jpg"> </a>
+                  <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Coleções/Futebol/Caneca Personalizada Mascote Copa do Mundo 2018 ( Brasil ) RS 34.90.jpg"> </a>
                   <figcaption class="info-wrap">
                       <a href="#" class="title">Some item name here</a>
                       <div class="price mt-1">$280.00</div> <!-- price-wrap.// -->
@@ -297,7 +285,7 @@
           </div> <!-- col.// -->
           <div class="col-xl-2 col-lg-3 col-md-4 col-6">
               <div class="card card-sm card-product-grid">
-                  <a href="#" class="img-wrap"> <img src="assets/images/items/3.jpg"> </a>
+                  <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas//Coleções/Filmes/Caneca Personalizada Leviosa RS 34.90.jpg"> </a>
                   <figcaption class="info-wrap">
                       <a href="#" class="title">Great product name here</a>
                       <div class="price mt-1">$56.00</div> <!-- price-wrap.// -->
@@ -306,7 +294,7 @@
           </div> <!-- col.// -->
           <div class="col-xl-2 col-lg-3 col-md-4 col-6">
               <div class="card card-sm card-product-grid">
-                  <a href="#" class="img-wrap"> <img src="assets/images/items/4.jpg"> </a>
+                  <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Canecas com fotos/Caneca Personalizada Aniversário Mod. 1 ( Foto e Nome ) RS 34.90.jpg"> </a>
                   <figcaption class="info-wrap">
                       <a href="#" class="title">Just another product name</a>
                       <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
@@ -315,7 +303,7 @@
           </div> <!-- col.// -->
           <div class="col-xl-2 col-lg-3 col-md-4 col-6">
               <div class="card card-sm card-product-grid">
-                  <a href="#" class="img-wrap"> <img src="assets/images/items/5.jpg"> </a>
+                  <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Coleções/Futebol/Caneco de Cerveja Time Fluminense RS 29.90.jpg"> </a>
                   <figcaption class="info-wrap">
                       <a href="#" class="title">Just another product name</a>
                       <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
@@ -324,7 +312,7 @@
           </div> <!-- col.// -->
           <div class="col-xl-2 col-lg-3 col-md-4 col-6">
               <div class="card card-sm card-product-grid">
-                  <a href="#" class="img-wrap"> <img src="assets/images/items/6.jpg"> </a>
+                  <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Coleções/Profissão/Caneca Personalizada Polícia Federal RS 34.90.jpg"> </a>
                   <figcaption class="info-wrap">
                       <a href="#" class="title">Some item name here</a>
                       <div class="price mt-1">$280.00</div> <!-- price-wrap.// -->
@@ -333,7 +321,7 @@
           </div> <!-- col.// -->
           <div class="col-xl-2 col-lg-3 col-md-4 col-6">
               <div class="card card-sm card-product-grid">
-                  <a href="#" class="img-wrap"> <img src="assets/images/items/7.jpg"> </a>
+                  <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Coleções/Canecas Celebridades/Caneca Personalizada Pop - Fifth Harmony RS 34.90.jpg"> </a>
                   <figcaption class="info-wrap">
                       <a href="#" class="title">Great product name here</a>
                       <div class="price mt-1">$56.00</div> <!-- price-wrap.// -->
@@ -342,7 +330,7 @@
           </div> <!-- col.// -->
           <div class="col-xl-2 col-lg-3 col-md-4 col-6">
               <div class="card card-sm card-product-grid">
-                  <a href="#" class="img-wrap"> <img src="assets/images/items/9.jpg"> </a>
+                  <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Personalize do seu jeito/Caneca com Glitter/Caneca Personalizada do seu Jeito Glitter Rosa RS 34.90.jpg"> </a>
                   <figcaption class="info-wrap">
                       <a href="#" class="title">Just another product name</a>
                       <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
@@ -351,7 +339,7 @@
           </div> <!-- col.// -->
           <div class="col-xl-2 col-lg-3 col-md-4 col-6">
               <div class="card card-sm card-product-grid">
-                  <a href="#" class="img-wrap"> <img src="assets/images/items/4.jpg"> </a>
+                  <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Presentes/Para sua mãe/Cenca Personalizada Eu Amo Mamãe ( 3 Fotos ) RS 34.90.jpg"> </a>
                   <figcaption class="info-wrap">
                       <a href="#" class="title">Just another product name</a>
                       <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
@@ -360,7 +348,7 @@
           </div> <!-- col.// -->
           <div class="col-xl-2 col-lg-3 col-md-4 col-6">
               <div class="card card-sm card-product-grid">
-                  <a href="#" class="img-wrap"> <img src="assets/images/items/5.jpg"> </a>
+                  <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Presentes/Para Namorados/Caneca Personalizada O Melhor Namorado do Mundo RS 34.90.jpg"> </a>
                   <figcaption class="info-wrap">
                       <a href="#" class="title">Just another product name</a>
                       <div class="price mt-1">$179.00</div> <!-- price-wrap.// -->
@@ -369,7 +357,7 @@
           </div> <!-- col.// -->
           <div class="col-xl-2 col-lg-3 col-md-4 col-6">
               <div class="card card-sm card-product-grid">
-                  <a href="#" class="img-wrap"> <img src="assets/images/items/6.jpg"> </a>
+                  <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Coleções/Games/Caneca Personalizada Super Mario ( Yoshi ) RS 34.90.jpg"> </a>
                   <figcaption class="info-wrap">
                       <a href="#" class="title">Some item name here</a>
                       <div class="price mt-1">$280.00</div> <!-- price-wrap.// -->
@@ -378,7 +366,7 @@
           </div> <!-- col.// -->
           <div class="col-xl-2 col-lg-3 col-md-4 col-6">
               <div class="card card-sm card-product-grid">
-                  <a href="#" class="img-wrap"> <img src="assets/images/items/7.jpg"> </a>
+                  <a href="#" class="img-wrap"> <img src="../../../../assets/images/canecas/Coleções/Filmes/Caneca Personalizada A Freira RS 34.90.jpg"> </a>
                   <figcaption class="info-wrap">
                       <a href="#" class="title">Great product name here</a>
                       <div class="price mt-1">$56.00</div> <!-- price-wrap.// -->
@@ -395,45 +383,36 @@
             <section class="footer-top padding-y-lg text-white">
                 <div class="row">
                     <aside class="col-md col-6">
-                        <h6 class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brands</h6>
+                        <h6 class="title">Empresa</h6>
                         <ul class="list-unstyled">
-                            <li> <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adidas</a></li>
-                            <li> <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Puma</a></li>
-                            <li> <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reebok</a></li>
-                            <li> <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nike</a></li>
+                            <li> <a href="#">Sobre nós</a></li>
+                            <li> <a href="#">Carreira</a></li>
+                            <li> <a href="#">Encontre uma loja</a></li>
+                            <li> <a href="#">Regras e termos</a></li>
+                            <li> <a href="#">Mapa do site</a></li>
                         </ul>
                     </aside>
                     <aside class="col-md col-6">
-                        <h6 class="title">Company</h6>
+                        <h6 class="title">Ajuda</h6>
                         <ul class="list-unstyled">
-                            <li> <a href="#">About us</a></li>
-                            <li> <a href="#">Career</a></li>
-                            <li> <a href="#">Find a store</a></li>
-                            <li> <a href="#">Rules and terms</a></li>
-                            <li> <a href="#">Sitemap</a></li>
+                            <li> <a href="#">Fale conosco</a></li>
+                            <li> <a href="#">Rastreamento</a></li>
+                            <li> <a href="#">SAC</a></li>
+                            <li> <a href="#">Abrir disputa</a></li>
+                            <li> <a href="#">Central de ajuda</a></li>
                         </ul>
                     </aside>
                     <aside class="col-md col-6">
-                        <h6 class="title">Help</h6>
+                        <h6 class="title">Conta</h6>
                         <ul class="list-unstyled">
-                            <li> <a href="#">Contact us</a></li>
-                            <li> <a href="#">Money refund</a></li>
-                            <li> <a href="#">Order status</a></li>
-                            <li> <a href="#">Shipping info</a></li>
-                            <li> <a href="#">Open dispute</a></li>
-                        </ul>
-                    </aside>
-                    <aside class="col-md col-6">
-                        <h6 class="title">Account</h6>
-                        <ul class="list-unstyled">
-                            <li> <a href="#"> User Login </a></li>
-                            <li> <a href="#"> User register </a></li>
-                            <li> <a href="#"> Account Setting </a></li>
-                            <li> <a href="#"> My Orders </a></li>
+                            <li> <a href="#"> Login </a></li>
+                            <li> <a href="#"> Cadastro </a></li>
+                            <li> <a href="#"> Configurações da conta </a></li>
+                            <li> <a href="#"> Meus pedidos </a></li>
                         </ul>
                     </aside>
                     <aside class="col-md">
-                        <h6 class="title">Social</h6>
+                        <h6 class="title">Redes Sociais</h6>
                         <ul class="list-unstyled">
                             <li><a href="#"> <i class="fab fa-facebook"></i> Facebook </a></li>
                             <li><a href="#"> <i class="fab fa-twitter"></i> Twitter </a></li>

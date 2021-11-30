@@ -161,7 +161,7 @@ sup {
 }
 
 a {
-  color: #3167eb;
+  color: #ee8608;
   text-decoration: none;
   background-color: transparent;
 }
@@ -444,7 +444,7 @@ mark,
 }
 
 .list-unstyled {
-  padding-left: 0;
+  padding-left: 100px;
   list-style: none;
 }
 
@@ -2386,8 +2386,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #3167eb;
-  border-color: #3167eb;
+  background-color: #ee8608;
+  border-color: #ee8608;
 }
 .btn-primary:hover {
   color: #fff;

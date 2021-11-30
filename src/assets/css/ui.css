@@ -291,7 +291,7 @@ article:after,
 }
 
 .bg-light-orange {
-  background-color: #ffdcb0
+  background-color: #ee8608
 }
 
 .bg-light-green {
@@ -395,7 +395,7 @@ article:after,
 }
 
 .title-text {
-  margin-top: 30px;
+  margin-top: 80px;
   margin-bottom: 10px;
   font-weight: bold;
   color: #212529
@@ -491,7 +491,7 @@ p:last-child {
 }
 
 .search-header {
-  border: 2px solid #ff6a00;
+  border: 2px solid #ee8608;
   border-radius: .55rem
 }
 
@@ -591,7 +591,7 @@ p:last-child {
 .footer-bottom {
   padding-top: 20px;
   padding-bottom: 20px;
-  border-top: 1px solid #1a3286
+  border-top: 1px solid #ff6a00
 }
 
 .footer-copyright {
